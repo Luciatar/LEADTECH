@@ -1,0 +1,119 @@
+//font-family: 'Montserrat', sans-serif;#205e5d
+//font-family: 'Merriweather', serif; #252839
+
+.grid-container {
+    display: grid;
+    grid: 1fr 1fr 1fr 1fr 1fr 1fr/150px 1fr 1fr 1fr 1fr 150px;
+
+    background-color: #205E5D;
+
+
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    margin: 0%;
+}
+
+.rock {
+    background-image: url(images/rock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scaleX(-1) scaleY(-1);
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 6;
+}
+
+.logo {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position-x: 38%;
+    background-position-y: 36%;
+    background-size: 60%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    z-index: 2;
+}
+
+.icon_rocket {
+    background-image: url(images/icon_rocket.png);
+    background-repeat: no-repeat;
+    background-color: rgba(32, 94, 93, 0.415);
+    background-position-x: 12%;
+    background-position-y: 5%;
+    background-size: 32%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    z-index: 2;
+
+    hr {
+        position: relative;
+        top: 20%;
+        left: -26.5%;
+        border-top: 8px solid #19BD9C;
+        width: 29.5%;
+    }
+}
+
+.background {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    // background-position-x: 50%;
+    //background-position-y: 50%;
+    background-size: 95% 100%;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    z-index: 1;
+}
+
+.menu {
+    background-color: #252839;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    z-index: 3;
+    height: 467px;
+    width: 725px;
+        
+}
+
+.rocket {
+    background-image: url(images/rocket.png);
+    background-repeat: no-repeat;
+    background-size: 265%;
+    background-position-x: 32%;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    z-index: 2;
+}
+
+h2 {
+    color: white;
+    font-size: 300%;
+    position: relative;
+    top: 23%;
+    left: 9%;
+    font-family: 'Merriweather';
+    font-weight: 700;
+
+}
+
+h1 {
+    color: white;
+    font-size: 800%;
+    position: relative;
+    top: 45%;
+    left: -23%;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
